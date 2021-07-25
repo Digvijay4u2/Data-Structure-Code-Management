@@ -1,0 +1,93 @@
+
+.container{
+
+    height: 60rem;
+}
+.adjust{
+    
+    margin-top: 18px;
+    height: 100vh;
+    /* background: linear-gradient(45deg,rgba(95, 90, 136, 0.1),rgba(92,81,187,0.1)); */
+    margin-left: 70px;
+    /* margin-bottom: 20px; */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.adjust .inputbox{
+
+    padding: 10px;
+}
+.adjust .inputbox input{
+    
+    position: relative;
+    width: 95%;
+    height:35px;
+    margin-left: 15px;
+    border: 5px;
+    border-radius: 10px;
+    /* background-color: #d5d5d5; */
+    outline: none;
+    border: 2px solid #ddd;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+ 
+}
+
+.text_area{
+    
+    position: relative;
+    width: 95%;
+    margin-left: 15px;
+    border: 5px;
+    border-radius: 10px;
+    /* background-color: #d5d5d5; */
+    outline: none;
+    resize: none;
+    border: 2px solid #ddd;
+    padding: 10px;
+    font-size: 19px;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+.adjust input[type="submit"]{
+    
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: hsl(199, 89%, 66%);
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 15px;
+    width: 96%;
+    margin-left: 15px;
+    
+}
+
+.select_topic{
+
+    position: relative;
+    width: 95%;
+    height:35px;
+    margin-left: 15px;
+    border: 5px;
+    border-radius: 10px;
+    /* background-color: #d5d5d5; */
+    outline: none;
+    border: 2px solid #ddd;
+    font-size: 19px;
+    padding: 4px;
+    font-family: 'Inconsolata', monospace;
+}
+
+label{
+
+    font-size: 19px;
+    font-family: 'Inconsolata', monospace;
+    color: red;
+
+}

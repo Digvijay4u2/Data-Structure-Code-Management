@@ -1,0 +1,108 @@
+.navbar_container{
+    background: linear-gradient(90deg, rgb(110,94,254), rgba(73,63,252,1));
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar_logo{
+    color: #fff;
+    justify-self: start;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.nav_menu{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 20px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    align-items: center;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.nav_item{
+   color:white;
+   text-decoration: none;
+   padding: 0.2rem 0.5rem;
+}
+
+.nav_item:hover{
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2 ease-out;
+    text-decoration: none;
+}
+
+.fa-bars{
+    color: white;
+}
+
+.menu_icons{
+    display: none;
+}
+
+@media screen  and (max-width: 760px) {
+    .navbar_container{
+        position: relative;
+    }
+
+    .nav_menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        height: 0px;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        
+    }
+    .nav_menu.active{
+        background: #6668f4;
+        left: 0;
+        top: 54px;
+        height: 250px;
+        opacity: 1;
+        margin-right: 0;
+        z-index: 1;
+        transition: height 0.5s ease-out;
+    }
+    .nav_item{
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        display: table;
+        margin-left: 0;
+    }
+    
+   
+    .nav_menu.active .nav_item:hover{
+        background: #7577fa;
+        width: 99vw;
+        border-radius: 10px;
+    }
+    .navbar_logo{
+        position: absolute;
+        left: 0;
+        font-size: 20px;
+        transform: translate(25%,50%)
+    }
+    .menu_icons{
+        display: block;
+        position: absolute;
+        top:0;
+        right:0;
+        transform: translate(-100%,60%);
+        cursor: pointer;
+        font-size: 25px;
+    }
+}

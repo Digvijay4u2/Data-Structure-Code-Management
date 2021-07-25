@@ -1,0 +1,42 @@
+.modal-header{
+    background-image: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: -1px;
+}
+.custom{
+    box-shadow: 0 5px 16px rgba(54, 52, 52, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+}
+.close-btn{
+    cursor: pointer;
+}
+.modal-body{
+    padding: 10;
+    margin-top: 10px;
+    
+}
+
+.modal-footer{
+    margin-top: 30px;
+    height: 60px;
+}
+
+.mybtn{   
+    
+    background-image: linear-gradient(45deg, #63b1f1 30%, #21CBF3 90%);
+    border: none;
+    color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5rem;
+    box-shadow: 0 2px 2px 0.3px rgba(33, 203, 243, .3);  
+
+}

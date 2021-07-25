@@ -1,0 +1,18 @@
+.topic_adjust{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 20px;
+    list-style: none;
+    margin-left: 130px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    
+}
+
+@media screen  and (max-width: 760px) {
+    .topic_adjust{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 20px;
+    }
+}

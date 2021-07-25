@@ -1,0 +1,78 @@
+.form_container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg,rgba(95, 90, 136, 0.1),rgba(92,81,187,0.1))
+}
+
+
+.form_header{
+    width: 380px;
+    height: 450px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    box-shadow: 0 25px 42px rgba(0,0,0,0.1);
+    border: 2px solid rgba(255, 255, 255, 0.041);
+}
+.form_header h1{
+    text-align: center;
+}
+
+.form_header .inputbox{
+    position: relative;
+    top: 40px;
+    padding: 7px;
+
+}
+.form_header .inputbox input{
+ 
+    margin-left:30px;
+    padding: 5px;
+    font-size: 18px;
+    border:none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(136, 128, 128);
+}
+.form_header .inputbox .far{
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+.form_header input[type="submit"]{
+    position: relative;
+    top: 60px;
+    left: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-right: 120px;
+    margin-top: 18px;
+    background: hsl(199, 89%, 66%);
+    color: white;
+    font-size: 18px;
+    padding: 4px 15px;
+    border-radius: 5px;
+    width: 35%;
+}  
+
+.form_header p{
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+@media screen and (max-width: 760px) {
+    .form_container{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    .form_container .form_des{
+        display: none;
+    }
+
+}
